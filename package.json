@@ -1,0 +1,50 @@
+{
+  "name": "amish-homestead",
+  "version": "1.0.0",
+  "description": "Modern multi-vendor farm and exotic pet marketplace",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json,css,md}\""
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next": "^14.1.0",
+    "typescript": "^5.3.3",
+    "tailwindcss": "^3.4.1",
+    "@supabase/supabase-js": "^2.38.4",
+    "zustand": "^4.4.1",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.368.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.2.1",
+    "react-query": "^3.39.3",
+    "axios": "^1.6.2",
+    "date-fns": "^2.30.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "react-hook-form": "^7.48.0",
+    "zod": "^3.22.4",
+    "@hookform/resolvers": "^3.3.4",
+    "next-seo": "^6.2.0",
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-slick": "^0.23.13",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "prettier": "^3.1.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10"
+  }
+}
